@@ -11,7 +11,7 @@ In this repository, i use Lumen (5.4.6) (Laravel Components 5.4.*)
 
 The steps to fix the CORS problem:
 
-- step 1
+- Step 1
 
 Add cors class in app\Http\Middleware, example class name is CorsMiddleware.
 
@@ -30,7 +30,8 @@ public function handle($request, Closure $next)
         return $response
 }
 
-- step 2
+- Step 2
+
 Configure/add CorsMiddleware in bootstrap\app.php
 
 The script like belows:
