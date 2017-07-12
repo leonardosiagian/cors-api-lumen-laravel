@@ -17,6 +17,7 @@ Add cors class in app\Http\Middleware, example class name is CorsMiddleware.
 
 Just add this script to Intercepts OPTIONS requests:
 
+```php
 public function handle($request, Closure $next)
 {
         //Intercepts OPTIONS requests
@@ -29,6 +30,7 @@ public function handle($request, Closure $next)
         // Sends it
         return $response
 }
+```
 
 - Step 2
 
@@ -36,9 +38,12 @@ Configure/add CorsMiddleware in bootstrap\app.php
 
 The script like belows:
 
+```php
 $app->middleware([
     App\Http\Middleware\CorsMiddleware::class
  ]);
+ ```
+
  
  Note: uncomment this middleware configuration if API and Client is tested in local.
  
