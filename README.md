@@ -38,7 +38,7 @@ public function handle($request, Closure $next)
 
 Configure/add CorsMiddleware in bootstrap\app.php
 
-The script like belows:
+The script likes below:
 
 ```php
 $app->middleware([
