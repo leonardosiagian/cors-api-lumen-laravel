@@ -5,7 +5,9 @@ The problems CORS comes when using API Lumen consumed by AJAX.
 
 example of error CORS is : 
 
+```
 XMLHttpRequest cannot load 'api url'. No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
 
 In this repository, i use Lumen (5.4.6) (Laravel Components 5.4.*)
 
