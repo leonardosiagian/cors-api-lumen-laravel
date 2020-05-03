@@ -8,7 +8,7 @@ class CorsMiddleware
 {
     /**
      * Handle an incoming request.
-     *
+     * 20200503
      * @param  \Illuminate\Http\Request  $request
      * @param  \Closure  $next
      * @return mixed
